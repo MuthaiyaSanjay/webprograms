@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head
+{
+    background-color: rgb(210, 226, 221);
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+}
+.head div ul li{
+    
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+    margin: 40px;
+}
+#home {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#home a{
+    color: white;
+    text-decoration: none;
+}
+#country{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;  
+}
+.li-country{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-left: 10%;
+    width: 80%;
+    align-items: center;
+}
+.li-country div{
+    cursor: pointer;
+    background-color: red;
+    border-radius: 10px;
+    width: 100px;
+    height: 20px;
+    color: white;
+    text-align: center;
+}
+.india{
+    margin-left: 140px;
+    width: 80%;
+}
